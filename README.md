@@ -3,7 +3,7 @@
 </div>
 
 # __Interview Bucket__ (Learning curve)
-Here, I have specify the learning platform and interview preparatory materials for all and its public so everyone can access it from beginner level to professional one. You can also contibute on fork request / connecting with me.
+Here, I have updated learning resources, use-case, code techniques and interview preparatory materials for everyone and its public, so each members can access whoever from beginner level to professional one. I am happy if you also contibute the same on fork request / by connecting with me. The collections made by few external references like github, youtube, linkedin and my own which covers stacks on __Data Science, AI-ML, GenAI, LLM, Java, Data Engineering, Cloud, C++, BigData, SQL__ and many more.
 
 <div align="center">
   <a href="https://github.com/kunalk3/Interview_bucket/issues"><img src="https://img.shields.io/github/issues/kunalk3/Interview_bucket" alt="Issues Badge"></a>
