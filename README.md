@@ -42,16 +42,35 @@ Here, I have updated learning resources, use-case, code techniques and interview
 ## :bookmark: Directory Structure 
 ```bash
     .                                          
-    ├── LearningBase                                 # Notes: Learning curve
-    │   ├──     
-    │   └── 
-    ├── Others                                       # Other stuff
-    │   └──                         
+    ├── LearningBase                                 # Technical preparation notes
+    │   ├── BigData
+    │   ├── Cloud
+    │   ├── AI-ML
+    │   ├── Data Science
+    │   ├── DevOps
+    │   ├── Python
+    │   ├── SQL
+    │   └── ...  
     ├── Usecases                                     # Usecase executions
-    │   ├── css                                
+    │   ├── 
+    │   ├── 
+    │   ├── 
+    │   ├── 
+    │   └── ...                            
     ├── QA                                           # Interview QA
+    │   ├── BigData QA
+    │   ├── Cloud QA
+    │   ├── AI-ML QA
+    │   ├── Data Science QA
+    │   ├── DevOps QA
+    │   ├── Python QA
+    │   ├── SQL QA
+    |   └── ...
+    ├── Blogs                                        # Reference blogs
     │   ├── 
     │   ├── 
+    |   └── ...
+    ├── Others                                       # Other bucket
     ├── README.md                                    # Project README file
     └── LICENSE                                      # Project License file
 ```
