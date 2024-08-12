@@ -6,9 +6,9 @@
 Here, I have updated learning resources, use-case, code techniques and interview preparatory materials for everyone and its public, so each members can access whoever from beginner level to professional one. I am happy if you also contibute the same on fork request / by connecting with me. The collections made by few external references like github, youtube, linkedin and my own which covers stacks on __Data Science, AI-ML, GenAI, LLM, Java, Data Engineering, Cloud, C++, BigData, SQL__ and many more.
 
 
-<img align='right' src="https://github.com/user-attachments/assets/5e09b7ef-c4e3-4034-830e-eb61023aa4da" width="400">
-
 <div align="center">
+  <img align='center' src="https://github.com/user-attachments/assets/5e09b7ef-c4e3-4034-830e-eb61023aa4da" width="80%">
+  <br>
   <a href="https://github.com/kunalk3/Interview_bucket/issues"><img src="https://img.shields.io/github/issues/kunalk3/Interview_bucket" alt="Issues Badge"></a>
   <a href="https://github.com/kunalk3/Interview_bucket/graphs/contributors"><img src="https://img.shields.io/github/contributors/kunalk3/Interview_bucket?color=872EC4" alt="GitHub contributors"></a>
   <a href="https://www.python.org/downloads/release/python-390/"><img src="https://img.shields.io/static/v1?label=python&message=v3.9&color=faff00" alt="Python 3.9"</a>
