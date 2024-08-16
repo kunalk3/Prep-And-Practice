@@ -52,10 +52,7 @@ Here, I have updated learning resources, use-case, code techniques and interview
     │   ├── SQL
     │   └── ...  
     ├── Usecases                                     # Usecase executions
-    │   ├── 
-    │   ├── 
-    │   ├── 
-    │   ├── 
+    │   ├── DataAnalytics_usecase
     │   └── ...                            
     ├── QA                                           # Interview QA
     │   ├── BigData QA
