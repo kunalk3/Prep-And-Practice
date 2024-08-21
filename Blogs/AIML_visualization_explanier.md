@@ -36,7 +36,7 @@ Transformer Explainer is an interactive visualization tool designed to help anyo
 
 ---
 
-__📌 D) Transformer Explainer: Interactive Learning of Text-Generative Models:__
+__📌 D) NLP Models for Sentiment Analysis__ BERT, RoBERTa, DistilBERT, ALBERT, XLNet:
 
 Sentiment analysis is a crucial task in Natural Language Processing (NLP) that aims to determine the sentiment expressed in a given text. It has applications in various domains, including social media monitoring, customer feedback analysis, and market research.
 
