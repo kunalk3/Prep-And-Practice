@@ -43,17 +43,17 @@ Here, I have updated learning resources, use-case, code techniques and interview
 ```bash
     .                                          
     ├── LearningBase                                 # Technical preparation notes
-    │   ├── BigData
-    │   ├── Cloud
-    │   ├── AI-ML
-    │   ├── Data Science
-    │   ├── DevOps
-    │   ├── Python
-    │   ├── SQL
+    │   ├── BigData notes
+    │   ├── Cloud notes
+    │   ├── DataAnalytics notes
+    │   │   └── DataAnalytics usecases
+    │   │       └── ...
+    │   ├── AI-ML notes
+    │   ├── DataScience notes
+    │   ├── DevOps nots
+    │   ├── Python notes
+    │   ├── SQL notes
     │   └── ...  
-    ├── Usecases                                     # Usecase executions
-    │   ├── DataAnalytics_usecase
-    │   └── ...                            
     ├── QA                                           # Interview QA
     │   ├── BigData QA
     │   ├── Cloud QA
@@ -63,7 +63,7 @@ Here, I have updated learning resources, use-case, code techniques and interview
     │   ├── Python QA
     │   ├── SQL QA
     |   └── ...
-    ├── Blogs                                        # Reference blogs
+    ├── Blogs                                        # Collective blog references
     │   ├── 
     │   ├── 
     |   └── ...
