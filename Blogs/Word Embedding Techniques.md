@@ -12,6 +12,8 @@ __Owner:__ @Kunal K</center> </small>
 
 ## 40 Various Word Embedding Techniques in NLP:
 
+[Demo PDF link](https://github.com/kunalk3/Prep-And-Practice/blob/main/LearningBase/DeepLearning_notes/word_embeddings_explore.pdf) 
+
 📌 __Bag of Words (BoW):__ This technique represents text as a collection of unique words and their frequencies within a document. It ignores the order of words but considers their occurrence.
 
 📌 __Term Frequency-Inverse Document Frequency (TF-IDF):__ TF-IDF represents text by assigning a weight to each word based on its frequency in a document and its rarity across all documents in a corpus.
