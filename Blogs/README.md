@@ -1,11 +1,3 @@
-<div align="right">
-<img src="https://user-images.githubusercontent.com/41562231/141720820-090897f9-f564-45e2-9265-15c1269db795.png" height="120" width="900">
-</div>
-
-# __Prep And Practice__ (Technical Notes, Interview QA, Research Papers, Use-case, Strategies)
-Here, I have updated learning resources, use-case, code techniques and interview preparatory materials for everyone and its public, so each members can access whoever from beginner level to professional one. I am happy if you also contibute the same on fork request / by connecting with me. The collections made by few external references like github, youtube, linkedin and my own which covers stacks on __Data Science, AI-ML, GenAI, LLM, Java, Data Engineering, Cloud, C++, BigData, SQL__ and many more.
-
-
 <div align="center">
   <img align='center' src="https://github.com/user-attachments/assets/5e09b7ef-c4e3-4034-830e-eb61023aa4da" width="80%">
   <br>
@@ -37,40 +29,22 @@ Here, I have updated learning resources, use-case, code techniques and interview
   [![Instagram Badge](https://img.shields.io/badge/Instagram-Profile-informational?style=flat&logo=Instagram&logoColor=white&color=c90076)](https://www.instagram.com/kkunalkkolhe/)
 </div>
 
+# __Prep And Practice__ (Blogs / Resources / References)
+Here, I have updated a good resources for AI-ML knwoledge base. 
+
 ---  
   
-## :bookmark: Directory Structure 
-```bash
-    .                                          
-    ├── LearningBase                                 # Technical preparation notes
-    │   ├── BigData notes
-    │   ├── Cloud notes
-    │   ├── DataAnalytics notes
-    │   │   └── DataAnalytics usecases
-    │   │       └── ...
-    │   ├── AI-ML notes
-    │   ├── DataScience notes
-    │   ├── DevOps nots
-    │   ├── Python notes
-    │   ├── SQL notes
-    │   └── ...  
-    ├── QA                                           # Interview QA
-    │   ├── BigData QA
-    │   ├── Cloud QA
-    │   ├── AI-ML QA
-    │   ├── Data Science QA
-    │   ├── DevOps QA
-    │   ├── Python QA
-    │   ├── SQL QA
-    |   └── ...
-    ├── Blogs                                        # Collective blog references
-    │   ├── 
-    │   ├── 
-    |   └── ...
-    ├── Others                                       # Other bucket
-    ├── README.md                                    # Project README file
-    └── LICENSE                                      # Project License file
-```
+__1) AI-ML Visualizer__ [Link](https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/AIML_visualization_explanier.md)
+- Transformer Explainer
+- Sentiment Analysis Models
+
+__2) Word Embedding Techniques (NLP)__ [Link](https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Word%20Embedding%20Techniques.md)
+- Word2Vec
+- GloVe
+- FastText
+- BERT
+
+__3) Upcoming...__ [Link]()
 
 ---
 
