@@ -1,3 +1,15 @@
+<div align="right">
+<img src="https://user-images.githubusercontent.com/41562231/141720820-090897f9-f564-45e2-9265-15c1269db795.png" height="120" width="900">
+</div> 
+
+<small> <center>
+
+[▸LinkedIn](https://www.linkedin.com/in/kunalkolhe3/) <a href="https://www.linkedin.com/in/kunalkolhe3/" target="blank"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Portfolio](https://kunalk3.github.io/Portfolio-Website-Kunalk3/) <a href="https://kunalk3.github.io/Portfolio-Website-Kunalk3/" target="blank"><img src="https://img.icons8.com/color/48/cloud-checked.png" alt="Kunal K" height="22" width="22"/></a> ║ [▸GitHub](https://github.com/kunalk3/) <a href="https://github.com/kunalk3/" target="blank"><img src="https://img.icons8.com/ios-filled/50/github.png" alt="Kunal K" height="18" width="18"/></a> ║ [▸Gmail](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kunalkoleh333@gmail.com) <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kunalkoleh333@gmail.com" target="blank"><img src="https://img.icons8.com/fluency/48/gmail-new.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Facebook](https://www.facebook.com/kunal.kolhe98/) <a href="https://www.facebook.com/kunal.kolhe98/" target="blank"><img src="https://img.icons8.com/color/48/facebook-new.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Instagram](https://www.instagram.com/kkunalkkolhe/) <a href="https://www.instagram.com/kkunalkkolhe/" target="blank"><img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Kunal K" height="20" width="20"/></a>
+
+__Owner:__ @Kunal K</center> </small>
+
+---
+
 ## 40 Various Word Embedding Techniques in NLP:
 
 📌 __Bag of Words (BoW):__ This technique represents text as a collection of unique words and their frequencies within a document. It ignores the order of words but considers their occurrence.
@@ -75,3 +87,9 @@
 📌 __Adversarial Training for Embeddings:__ Adversarial training involves training a discriminator to differentiate between real and generated word embeddings. By optimizing the embeddings to fool the discriminator, the model can learn more informative and discriminative embeddings.
 
 📌 __Deep Cross-Modal Hashing (DCMH):__ DCMH generates compact binary embeddings that capture the cross-modal information between text and other modalities, such as images or videos. It is useful for tasks involving multimodal data.
+
+---
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/41562231/141720940-53eb9b25-777d-4057-9c2d-8e22d2677c7c.png" height="120" width="900">
+</div>
