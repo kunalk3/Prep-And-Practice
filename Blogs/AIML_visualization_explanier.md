@@ -14,13 +14,12 @@ __Owner:__ @Kunal K
 ---
 
 __Introduction-__
-This document provide the blog references for AI-ML model visualization to understand the key concepts in better way.
+This blog provides the references for AI-ML model visualization, architecture understanding, key components and data flow in better way.
 
 - __Transformer Explainer__ (Transformer, Architecture, Embeddings, Attention models, MLP)
-- s
-- s
+- __Diffusion Explainer__ (Stable Diffusion, Image upscale, Image refine)
+- __CNN Explainer__ (CNN, Pooling, Kernel, Stride, Fully coonected network)
 - __NLP Models for Sentiment Analysis__ (BERT, RoBERTa, DistilBERT, ALBERT, XLNet)
-
 
 ---
 
@@ -29,13 +28,36 @@ __📌 A) Transformer Explainer: Interactive Learning of Text-Generative Models:
 Transformer Explainer is an interactive visualization tool designed to help anyone learn how Transformer-based models like GPT work. It runs a live GPT-2 model right in your browser, allowing you to experiment with your own text and observe in real time how internal components and operations of the Transformer work together to predict the next tokens. Try Transformer Explainer at http://poloclub.github.io/transformer-explainer and watch a demo video on YouTube https://youtu.be/ECR4oAwocjs .
 
 <div align="center">
-    <img src="Assets/1.PNG" height="100%" width="100%">
+    <img src="Assets/1.gif" height="100%" width="100%">
 </div>
 
 [▸Demo](https://poloclub.github.io/transformer-explainer/) <a href="https://poloclub.github.io/transformer-explainer/" target="blank"><img src="https://img.icons8.com/fluency/48/ps-controller.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸GitHub](https://github.com/poloclub/transformer-explainer) <a href="https://github.com/poloclub/transformer-explainer" target="blank"><img src="https://img.icons8.com/ios-filled/50/github.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Paper](https://arxiv.org/abs/2408.04619) <a href="https://arxiv.org/abs/2408.04619" target="blank"><img src="https://img.icons8.com/cotton/64/red-file--v1.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Video](https://www.youtube.com/watch?v=ECR4oAwocjs) <a href="https://www.youtube.com/watch?v=ECR4oAwocjs" target="blank"><img src="https://img.icons8.com/3d-fluency/94/cinema-.png" alt="Kunal K" height="20" width="20"/></a> 
 
 ---
 
+__📌 B) Diffusion Explainer:__
+
+Stable Diffusion is a text-to-image model that transforms a text prompt into a high-resolution image. Stable Diffusion first changes the text prompt into a text representation, numerical values that summarize the prompt. The text representation is used to generate an image representation, which summarizes an image depicted in the text prompt. This image representation is then upscaled into a high-resolution image.
+
+<div align="center">
+    <img src="Assets/2.gif" height="100%" width="100%">
+</div>
+
+[▸Demo](https://poloclub.github.io/diffusion-explainer/) <a href="https://poloclub.github.io/diffusion-explainer/" target="blank"><img src="https://img.icons8.com/fluency/48/ps-controller.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸GitHub](https://github.com/poloclub/diffusion-explainer) <a href="https://github.com/poloclub/diffusion-explainer" target="blank"><img src="https://img.icons8.com/3d-fluency/94/cinema-.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Paper](https://arxiv.org/abs/2305.03509) <a href="https://arxiv.org/abs/2305.03509" target="blank"><img src="https://img.icons8.com/cotton/64/red-file--v1.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Video](https://www.youtube.com/watch?v=Zg4gxdIWDds) <a href="https://www.youtube.com/watch?v=Zg4gxdIWDds" target="blank"><img src="https://img.icons8.com/3d-fluency/94/cinema-.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Blog](https://medium.com/polo-club-of-data-science/stable-diffusion-explained-for-everyone-77b53f4f1c4) <a href="https://medium.com/polo-club-of-data-science/stable-diffusion-explained-for-everyone-77b53f4f1c4" target="blank"><img src="https://img.icons8.com/ios-filled/50/medium-logo.png" alt="Kunal K" height="20" width="20"/></a>
+
+---
+
+__📌 C) CNN  Explainer:__
+
+A CNN is a neural network: an algorithm used to recognize patterns in data. Neural Networks in general are composed of a collection of neurons that are organized in layers, each with their own learnable weights and biases.
+
+<div align="center">
+    <img src="Assets/3.gif" height="100%" width="100%">
+</div>
+
+[▸Demo](https://poloclub.github.io/cnn-explainer/) <a href="https://poloclub.github.io/cnn-explainer/" target="blank"><img src="https://img.icons8.com/fluency/48/ps-controller.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸GitHub](https://github.com/poloclub/cnn-explainer) <a href="https://github.com/poloclub/cnn-explainer" target="blank"><img src="https://img.icons8.com/3d-fluency/94/cinema-.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Paper](https://arxiv.org/abs/2004.15004) <a href="https://arxiv.org/abs/2004.15004" target="blank"><img src="https://img.icons8.com/cotton/64/red-file--v1.png" alt="Kunal K" height="20" width="20"/></a> ║ [▸Video](https://www.youtube.com/watch?v=HnWIHWFbuUQ) <a href="https://www.youtube.com/watch?v=HnWIHWFbuUQ" target="blank"><img src="https://img.icons8.com/3d-fluency/94/cinema-.png" alt="Kunal K" height="20" width="20"/></a>
+
+---
 __📌 D) NLP Models for Sentiment Analysis__ BERT, RoBERTa, DistilBERT, ALBERT, XLNet:
 
 Sentiment analysis is a crucial task in Natural Language Processing (NLP) that aims to determine the sentiment expressed in a given text. It has applications in various domains, including social media monitoring, customer feedback analysis, and market research.
