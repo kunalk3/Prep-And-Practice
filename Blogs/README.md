@@ -30,7 +30,7 @@
 </div>
 
 # __Prep And Practice__ (Blogs / Resources / References)
-Here, I have updated a good resources for AI-ML knwoledge base. 
+Here, I have updated a good resources for AI-ML knwoledge base. _```Let's learn AI togather!!!```_
 
 ---  
   
@@ -44,7 +44,30 @@ __2) Word Embedding Techniques (NLP)__ [Link](https://github.com/kunalk3/Prep-An
 - FastText
 - BERT
 
-__3) Upcoming...__ [Link]()
+__3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Top%2020%2B%20Python%20Libraries%20To%20Boost%20Productivity%20In%20AI-ML.pdf)
+- __CleanLab:__ _helps to clean data and labels by automatically detecting data issues, incorrect labels in a ML dataset._
+- __MissingNo:__ _enables to visualize the missing data points, % counts and patterns in a large ML dataset._
+- __Imbalanced-Learn:__ _helps to handle skewed and imbalanced large ML dataset using data re-sampling strategies._
+- __SweetViz:__ _enables to visualize EDA components and data information in single report with mouse-hover actions._
+- __LazyPredict:__ _helps to train, test and evaluate multiple machine learning models at once in a single package._
+- __PyForest:__ _enables to use data analysis python modules pandas, numpy, seaborn, tqdm in one-shot library import._
+- __Pandas-Profiling:__ _helps to make interactive data profile EDA report with statistical informations._
+- __PyCaret:__ _enables to multiple model training, testing, evaluating, tuning and pipeline building at once._
+- __PivotTableJS:__ _enables drag and drop functionality (data analytics withoud code) in PivotTable.js_
+- __StatsModel:__ _helps to conduct statistical test on ML dataset and also consist of statistical modeling._
+- __Category-Encoders:__ _helps to transform the categorical data into numeric for ML modeling with label, classes, etc._
+- __Lux:__ _enables interactive visualization, graphs, plots for dataframe without importing visualization libraries._
+- __DuckDB:__ _helps to run SQL queries in jupyter notebook with SQL operations, read/ write data sources, pandas SQL._
+- __Modin:__ _enables faster python code executions than Pandas library with multi-threads supports, Ray, Dask._
+- __FeatureLab:__ _helps to perform and build end-to-end automated feature engineering pipeline execution._
+- __EvalML:__ _ensure to builds, optimizes, and evaluates ML models pipeline using domain-specific objective functions._
+- __Pandarallel:__ _helps to parallelize the pandas operations (apply, map, filter, etc) and save execution time._
+- __Shap:__ _ensure power of model explanality to you based on training data points._
+- __Gradio:__ _helps to build and deploy machine learning models on web based UI with sharable links._
+- __Streamlit:__ _ensure to create UI for ML model deployments with interactive elements._
+- __Joblib:__ _ensure to save the model state in byte / object format and load again for predictions._
+- __BeautifulSoup:__ _helps in data pulling from HTML, XML formats specially applicable to web-scraping techniques._
+- __Lime:__ _ensure that the model predictions explainability with visualizations._
 
 ---
 
