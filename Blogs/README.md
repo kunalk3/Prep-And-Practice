@@ -69,6 +69,8 @@ __3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github
 - __BeautifulSoup:__ _helps in data pulling from HTML, XML formats specially applicable to web-scraping techniques._
 - __Lime:__ _ensure that the model predictions explainability with visualizations._
 
+__4) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Transformer%20Architecture.html)
+
 ---
 
 ### :iphone: Connect with me
