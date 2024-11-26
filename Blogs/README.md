@@ -44,7 +44,7 @@ __2) Word Embedding Techniques (NLP)__ [Link](https://github.com/kunalk3/Prep-An
 - FastText
 - BERT
 
-__3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Top%2020%2B%20Python%20Libraries%20To%20Boost%20Productivity%20In%20AI-ML.pdf)
+__3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_pdf/Top%2020%2B%20Python%20Libraries%20To%20Boost%20Productivity%20In%20AI-ML.pdf)
 - __CleanLab:__ _helps to clean data and labels by automatically detecting data issues, incorrect labels in a ML dataset._
 - __MissingNo:__ _enables to visualize the missing data points, % counts and patterns in a large ML dataset._
 - __Imbalanced-Learn:__ _helps to handle skewed and imbalanced large ML dataset using data re-sampling strategies._
@@ -69,7 +69,7 @@ __3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github
 - __BeautifulSoup:__ _helps in data pulling from HTML, XML formats specially applicable to web-scraping techniques._
 - __Lime:__ _ensure that the model predictions explainability with visualizations._
 
-__4) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Transformer%20Architecture.html)
+__4) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/Transformer%20Architecture.html)
 
 ---
 
