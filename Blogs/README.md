@@ -71,6 +71,9 @@ __3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github
 
 __4) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/Transformer%20Architecture.html)
 
+__5) AI-ML concepts (explain)__ [Link](https://aman.ai/primers/ai/) <i><small>by Aman </small></i>
+![image](https://github.com/user-attachments/assets/48d1f4a4-5b7a-4a38-b33b-dc8ed8564f6b)
+
 ---
 
 ### :iphone: Connect with me
