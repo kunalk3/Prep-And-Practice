@@ -72,7 +72,7 @@ __3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github
 __4) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/Transformer%20Architecture.html)
 
 __5) Optimization library for Linear Programming (LP) solver__
- [Link](!https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/pulp_optimal_solution.html)
+ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/pulp_optimal_solution.html)
  
 __6) AI-ML concepts (explain)__ [Link](https://aman.ai/primers/ai/) <i><small>by Aman </small></i>
 
