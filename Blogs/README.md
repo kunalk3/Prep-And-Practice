@@ -69,12 +69,14 @@ __3) Top 20+ Python Libraries for Data Scientist (AI-ML)__ [Link](https://github
 - __BeautifulSoup:__ _helps in data pulling from HTML, XML formats specially applicable to web-scraping techniques._
 - __Lime:__ _ensure that the model predictions explainability with visualizations._
 
-__4) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/Transformer%20Architecture.html)
+__4) Unveiling Patterns in Geospatial Data: A Clustering Approach)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/DeoData_notebook.html)
 
 __5) Optimization library for Linear Programming (LP) solver__
  [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/pulp_optimal_solution.html)
- 
-__6) AI-ML concepts (explain)__ [Link](https://aman.ai/primers/ai/) <i><small>by Aman </small></i>
+
+__6) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/Transformer%20Architecture.html)
+
+__7) AI-ML concepts (explain)__ [Link](https://aman.ai/primers/ai/) <i><small>by Aman </small></i>
 
 ---
 
