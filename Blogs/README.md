@@ -76,7 +76,7 @@ __5) Optimization library for Linear Programming (LP) solver__
 
 __6) Transformer Architecture (explain)__ [Link](https://html-preview.github.io/?url=https://github.com/kunalk3/Prep-And-Practice/blob/main/Blogs/Assets/ref_html/Transformer%20Architecture.html)
 
-__7) AI-ML concepts (explain)__ [Link](https://aman.ai/primers/ai/) <i><small>by Aman </small></i>
+__7) AI-ML concepts (explain)__ [Link](https://aman.ai/primers/ai/) <i><small>by Aman Chadha! </small></i> <b>|</b> [Link](https://vinija.ai/) <i><small>by Vinija Jain! </small></i>
 
 ---
 
