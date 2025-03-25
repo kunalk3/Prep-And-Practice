@@ -11,7 +11,7 @@ Here, I have updated learning resources, use-case, code techniques and interview
   <br>
   <a href="https://github.com/kunalk3/Interview_bucket/issues"><img src="https://img.shields.io/github/issues/kunalk3/Interview_bucket" alt="Issues Badge"></a>
   <a href="https://github.com/kunalk3/Interview_bucket/graphs/contributors"><img src="https://img.shields.io/github/contributors/kunalk3/Interview_bucket?color=872EC4" alt="GitHub contributors"></a>
-  <a href="https://www.python.org/downloads/release/python-390/"><img src="https://img.shields.io/static/v1?label=python&message=v3.9&color=faff00" alt="Python 3.9"</a>
+  <a href="https://www.python.org/downloads/release/python-390/"><img src="https://img.shields.io/static/v1?label=python&message=v12.2&color=faff00" alt="Python 12.2"</a>
   <a href="https://github.com/kunalk3/Interview_bucket/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kunalk3/Interview_bucket?color=019CE0" alt="License Badge"/></a>
   <a href="https://github.com/kunalk3/Interview_bucket"><img src="https://img.shields.io/badge/lang-eng-ff1100"></img></a>
   <a href="https://github.com/kunalk3/Interview_bucket"><img src="https://img.shields.io/github/last-commit/kunalk3/Interview_bucket?color=309a02" alt="GitHub last commit">
