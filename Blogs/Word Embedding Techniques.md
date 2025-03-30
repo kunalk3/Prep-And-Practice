@@ -1,6 +1,5 @@
-<div align="right">
-<img src="https://user-images.githubusercontent.com/41562231/141720820-090897f9-f564-45e2-9265-15c1269db795.png" height="120" width="900">
-</div> 
+![LN-header](https://github.com/user-attachments/assets/35e69a1b-aa5c-4e56-8c7d-a34c7996dcc2)
+
 
 <small> <center>
 
