@@ -10,32 +10,32 @@ __Owner:__ @Kunal K
 
 ---
 
-__📌 Key features of the GenAI project structure:__
-✅ __config/:__ YAML files for all configurations, keeping your settings separate from the code. 
-✅ __src/:__ Modularized core source code with logical components like llm/and prompt_engineering/. 
-✅ __data/:__ A well-organized storage solution for data types such as embeddings and prompts. 
-✅ __examples/:__ Sample scripts for implementation guidance, such as chat sessions or prompt chaining. 
-✅ __notebook/:__ Jupyter notebooks for experimentation and analysis.  
-✅ __models/:__ Trained models or custom HF models, weights, checkpoints for fine tuning. 
-✅ __test/:__ overall unit tests and integration tests with workflow validations.
-✅ __scripts/:__ scripts to automate workflow, trigger points, environmental setup scripts.
-✅ __docs/:__ Project documentations including architecture, overview, data sheets, procedures. 
+__📌 Key features of the GenAI project structure:__ <br>
+✅ __config/:__ YAML files for all configurations, keeping your settings separate from the code. <br>
+✅ __src/:__ Modularized core source code with logical components like llm/and prompt_engineering/. <br>
+✅ __data/:__ A well-organized storage solution for data types such as embeddings and prompts. <br>
+✅ __examples/:__ Sample scripts for implementation guidance, such as chat sessions or prompt chaining. <br> 
+✅ __notebook/:__ Jupyter notebooks for experimentation and analysis.  <br>
+✅ __models/:__ Trained models or custom HF models, weights, checkpoints for fine tuning. <br>
+✅ __test/:__ overall unit tests and integration tests with workflow validations.<br>
+✅ __scripts/:__ scripts to automate workflow, trigger points, environmental setup scripts.<br>
+✅ __docs/:__ Project documentations including architecture, overview, data sheets, procedures. <br>
  
 __Folder structure:__
 <div align="center">
     <img src="Assets/genai_directory.png" height="100%" width="100%">
 </div>
 
-__📌 Best practice implementations for Gen AI developments:__
-1️⃣ Use YAML files in _config/_ to keep configurations clean and separate from code.
-2️⃣ Organize modular components like llm,  prompt_engineering, utility under _src/_ for scalable development.
-3️⃣ Store embeddings, prompts and related assets in _data/_ for structured data management.
-4️⃣ Provide reference implementations in _examples/_ to guide usage like prompt chaining or chat sessions.
-5️⃣ Use _notebook/_ with Jupyter notebooks to quickly experiments, tests and validate ideas.
-6️⃣ Store fine-tuned models, checkpoints, and weights in _models/_ for reproducibility.
-7️⃣ Add unit and integration tests in _test/_ to ensure workflow reliability and quality assurance.
-8️⃣ Automate workflows and setups using shell and python scripts in _scripts/_.
-9️⃣ Maintain clear and thorough documentation in _docs/_ including architecture, procedures, and data flow.
+__📌 Best practice implementations for Gen AI developments:__ <br>
+1️⃣ Use YAML files in _config/_ to keep configurations clean and separate from code. <br>
+2️⃣ Organize modular components like llm,  prompt_engineering, utility under _src/_ for scalable development. <br>
+3️⃣ Store embeddings, prompts and related assets in _data/_ for structured data management. <br>
+4️⃣ Provide reference implementations in _examples/_ to guide usage like prompt chaining or chat sessions. <br>
+5️⃣ Use _notebook/_ with Jupyter notebooks to quickly experiments, tests and validate ideas. <br>
+6️⃣ Store fine-tuned models, checkpoints, and weights in _models/_ for reproducibility. <br>
+7️⃣ Add unit and integration tests in _test/_ to ensure workflow reliability and quality assurance. <br>
+8️⃣ Automate workflows and setups using shell and python scripts in _scripts/_. <br>
+9️⃣ Maintain clear and thorough documentation in _docs/_ including architecture, procedures, and data flow. <br>
 
 ```bash
     .                                       
