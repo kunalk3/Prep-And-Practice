@@ -21,21 +21,21 @@ __📌 Key features of the GenAI project structure:__ <br>
 ✅ __scripts/:__ scripts to automate workflow, trigger points, environmental setup scripts.<br>
 ✅ __docs/:__ Project documentations including architecture, overview, data sheets, procedures. <br>
  
-__Folder structure:__
+__📌 Folder structure:__
 <div align="center">
     <img src="Assets/genai_directory.png" height="100%" width="100%">
 </div>
 
 __📌 Best practice implementations for Gen AI developments:__ <br>
-1️⃣ Use YAML files in _config/_ to keep configurations clean and separate from code. <br>
-2️⃣ Organize modular components like llm,  prompt_engineering, utility under _src/_ for scalable development. <br>
-3️⃣ Store embeddings, prompts and related assets in _data/_ for structured data management. <br>
-4️⃣ Provide reference implementations in _examples/_ to guide usage like prompt chaining or chat sessions. <br>
-5️⃣ Use _notebook/_ with Jupyter notebooks to quickly experiments, tests and validate ideas. <br>
-6️⃣ Store fine-tuned models, checkpoints, and weights in _models/_ for reproducibility. <br>
-7️⃣ Add unit and integration tests in _test/_ to ensure workflow reliability and quality assurance. <br>
-8️⃣ Automate workflows and setups using shell and python scripts in _scripts/_. <br>
-9️⃣ Maintain clear and thorough documentation in _docs/_ including architecture, procedures, and data flow. <br>
+1️⃣ Use YAML files in __config/__ to keep configurations clean and separate from code. <br>
+2️⃣ Organize modular components like llm,  prompt_engineering, utility under __src/__ for scalable development. <br>
+3️⃣ Store embeddings, prompts and related assets in __data/__ for structured data management. <br>
+4️⃣ Provide reference implementations in __examples/__ to guide usage like prompt chaining or chat sessions. <br>
+5️⃣ Use __notebook/__ with Jupyter notebooks to quickly experiments, tests and validate ideas. <br>
+6️⃣ Store fine-tuned models, checkpoints, and weights in __models/__ for reproducibility. <br>
+7️⃣ Add unit and integration tests in __test/__ to ensure workflow reliability and quality assurance. <br>
+8️⃣ Automate workflows and setups using shell and python scripts in __scripts/__. <br>
+9️⃣ Maintain clear and thorough documentation in __docs/__ including architecture, procedures, and data flow. <br>
 
 ```bash
     .                                       
@@ -104,113 +104,68 @@ __📌 Best practice implementations for Gen AI developments:__ <br>
          └── 💬 ...                                    # backup data
 ```
 
-__📌 Overview in detail:__
-**📁 config/**
-**__ init__.py:** Initializes the config package to allow importing of config modules easily across the project.
-
-**model_config.yaml:** Stores parameters like model name, temperature, top_p, max_tokens etc., to configure LLM behavior without hardcoding.
-
-**prompt_templates.yaml:** Defines reusable prompt formats/templates (e.g., few-shot, instruction-based) for consistency and maintainability.
-
-**logging_config.yaml:** Centralizes logging configuration—format, level, handlers (console/file)—used throughout the project for unified logging.
-
-**📁 src/**
-**📁 llm/**
-**__init__.py:** Marks the llm module as a Python package, enabling modular imports of clients.
-
-**base.py:** Defines abstract base class for LLM clients, enforcing a common interface (e.g., generate_response()).
-
-**gpt_client.py:** Implements OpenAI GPT API interaction logic (e.g., ChatCompletion.create()), extending the base client.
-
-**gemini_client.py:** Handles interaction with Google's Gemini models (e.g., using VertexAI APIs or Gemini SDK).
-
-**claude_client.py:** Connects to Anthropic Claude APIs, enabling you to send prompts and get completions.
-
-**utils.py:** Houses shared functions for all LLM clients—authentication helpers, retries, formatting.
-
-📁 prompt_engineering/
-__init__.py
-Initializes the prompt_engineering package.
-
-**templates.py:** Manages loading, parsing, and rendering of prompt templates defined in YAML or stored locally.
-
-**few_shot.py:** Contains logic to construct few-shot prompts—adding context examples before queries.
-
-**chain.py:** Handles chaining logic—connecting multiple LLM calls to enable multi-step reasoning or task decomposition.
-
-**📁 utils/**
-**__init__.py:** Initializes the utility module for easy import of utility tools.
-
-**rate_limiter.py:** Implements rate limiting to avoid exceeding LLM API usage limits (e.g., using time.sleep, tokens/sec constraints).
-
-**token_counter.py:** Counts tokens in prompts/responses using model-specific encoding to manage token limits and optimize costs.
-
-**cache.py:** Stores previous LLM responses to avoid redundant API calls, improving performance and cost-efficiency.
-
-**📁 handlers/**
-**error_handler.py:** Captures and handles exceptions—API errors, invalid prompts, rate limit issues—providing safe fallback logic.
-
-**📁 data/**
-**📁 inputs/**
-**data_transformation.py:** Processes raw data into clean, structured format usable by prompts or LLMs (e.g., text extraction, formatting).
-
-**📁 outputs/**
-**data_validation_reports.py:** Validates LLM output—checking formatting, presence of expected fields, and correctness heuristics.
-
-**📁 prompts/:** Stores saved prompts, organized by use case (e.g., summarization, classification, Q&A), for reuse or versioning.
-
-**📁 cache/:** Contains cached responses and intermediate data files to reduce repeated computation.
-
-**📁 embeddings/:** Stores generated vector embeddings from text using models like OpenAI, Hugging Face, or custom ones.
-
-**📁 examples/**
-**llm_chains.py:** Shows how to use chained prompts (multi-step logic) in a real-world scenario.
-
-**chat_session.py:** Demonstrates implementing an interactive chat flow using LLM clients and prompt templates.
-
-**data_report.py:** Example of generating structured reports using LLM outputs, useful for business or analytics use cases.
-
-**📁 notebooks/**
-**prompt_testing.ipynb:** Notebook to interactively test different prompt structures and observe model behavior.
-
-**response_handle.ipynb:** Demonstrates how to parse, clean, or validate responses from the LLM.
-
-**model_experimentations.ipynb:** Used for running comparative experiments with different models, configs, or prompts.
-
-**📁 models/**
-**📁 huggingface/:** Stores downloaded or fine-tuned Hugging Face models (e.g., BERT, T5) and configs.
-
-**📁 custom/:** Stores your own trained or fine-tuned models—PyTorch/TF model weights, tokenizer configs, etc.
-
-**📁 test/**
-**📁 unit/:** Contains unit tests for small modules or functions (e.g., token counting, prompt building).
-
-**📁 integration/:** Tests how modules work together—LLM integration, prompt chains, caching.
-
-**📁 scripts/**
-**data_preparation.sh:** Shell script to automate the data ingestion and transformation pipeline.
-
-**📁 docs/**
-**architectures.docs:** Describes the architecture of the GenAI system, its modules, data flow, and responsibilities.
-
-**data_sheet.xlsx:** Excel sheet listing datasets, fields, sources, and related metadata.
-
-**📄 Other Root Files**
-**requirements.txt:** Lists all Python libraries required to run the project (e.g., openai, langchain, pandas, PyYAML).
-
-**setup.py:** Python setup script to package and install the project locally or via pip.
-
-**.env:** Stores sensitive environment variables (API keys, secrets, etc.) loaded at runtime.
-
-**README.md:** Project introduction, setup steps, usage examples, and contact/contribution info.
-
-**Dockerfile:** Creates a containerized environment for the project (with dependencies and runtime setup).
-
-**.gitignore:** Defines files/folders to exclude from version control (e.g., __pycache__, .env, logs, cache).
-
-**procedures_steps.txt:** Lists step-by-step instructions to run the project—from setup to execution and testing.
-
-**LICENSE:** Specifies the open-source license (MIT, Apache, etc.) governing how the project can be used or modified.
+__📌 Overview in detail (files level):__ 
+- **📁 config/**
+  - **📄 __ init__.py:** Initializes the config package to allow importing of config modules easily across the project.
+  - **📄 model_config.yaml:** Stores parameters like model name, temperature, top_p, max_tokens etc., to configure LLM behavior without hardcoding.
+  - **📄 prompt_templates.yaml:** Defines reusable prompt formats/templates (e.g., few-shot, instruction-based) for consistency and maintainability.
+  - **📄 logging_config.yaml:** Centralizes logging configuration—format, level, handlers (console/file)—used throughout the project for unified logging.
+- **📁 src/**
+  - **📁 llm/**
+  - **📄 __init__.py:** Marks the llm module as a Python package, enabling modular imports of clients.
+  - **📄 base.py:** Defines abstract base class for LLM clients, enforcing a common interface (e.g., generate_response()).
+  - **📄 gpt_client.py:** Implements OpenAI GPT API interaction logic (e.g., ChatCompletion.create()), extending the base client.
+  - **📄 gemini_client.py:** Handles interaction with Google's Gemini models (e.g., using VertexAI APIs or Gemini SDK).
+  - **📄 claude_client.py:** Connects to Anthropic Claude APIs, enabling you to send prompts and get completions.
+  - **📄 utils.py:** Houses shared functions for all LLM clients—authentication helpers, retries, formatting.
+  - 📁 prompt_engineering/
+  - **📄 __init__.py:** Initializes the prompt_engineering package.
+  - **📄 templates.py:** Manages loading, parsing, and rendering of prompt templates defined in YAML or stored locally.
+  - **📄 few_shot.py:** Contains logic to construct few-shot prompts—adding context examples before queries.
+  - **📄 chain.py:** Handles chaining logic—connecting multiple LLM calls to enable multi-step reasoning or task decomposition.
+  - **📁 utils/**
+  - **📄 __init__.py:** Initializes the utility module for easy import of utility tools.
+  - **📄 rate_limiter.py:** Implements rate limiting to avoid exceeding LLM API usage limits (e.g., using time.sleep, tokens/sec constraints).
+  - **📄 token_counter.py:** Counts tokens in prompts/responses using model-specific encoding to manage token limits and optimize costs.
+  - **📄 cache.py:** Stores previous LLM responses to avoid redundant API calls, improving performance and cost-efficiency.
+  - **📁 handlers/**
+  - **error_handler.py:** Captures and handles exceptions—API errors, invalid prompts, rate limit issues—providing safe fallback logic.
+- **📁 data/**
+  - **📁 inputs/**
+  - **data_transformation.py:** Processes raw data into clean, structured format usable by prompts or LLMs (e.g., text extraction, formatting).
+  - **📁 outputs/**
+  - **data_validation_reports.py:** Validates LLM output—checking formatting, presence of expected fields, and correctness heuristics.
+  - **📁 prompts/:** Stores saved prompts, organized by use case (e.g., summarization, classification, Q&A), for reuse or versioning.
+  - **📁 cache/:** Contains cached responses and intermediate data files to reduce repeated computation.
+  - **📁 embeddings/:** Stores generated vector embeddings from text using models like OpenAI, Hugging Face, or custom ones.
+- **📁 examples/**
+  - **📄 llm_chains.py:** Shows how to use chained prompts (multi-step logic) in a real-world scenario.
+  - **📄 chat_session.py:** Demonstrates implementing an interactive chat flow using LLM clients and prompt templates.
+  - **📄 data_report.py:** Example of generating structured reports using LLM outputs, useful for business or analytics use cases.
+- **📁 notebooks/**
+  - **📄 prompt_testing.ipynb:** Notebook to interactively test different prompt structures and observe model behavior.
+  - **📄 response_handle.ipynb:** Demonstrates how to parse, clean, or validate responses from the LLM.
+  - **📄 model_experimentations.ipynb:** Used for running comparative experiments with different models, configs, or prompts.
+- **📁 models/**
+  - **📁 huggingface/:** Stores downloaded or fine-tuned Hugging Face models (e.g., BERT, T5) and configs.
+  - **📁 custom/:** Stores your own trained or fine-tuned models—PyTorch/TF model weights, tokenizer configs, etc.
+- **📁 test/**
+  - **📁 unit/:** Contains unit tests for small modules or functions (e.g., token counting, prompt building).
+  - **📁 integration/:** Tests how modules work together—LLM integration, prompt chains, caching.
+- **📁 scripts/**
+  - **📄 data_preparation.sh:** Shell script to automate the data ingestion and transformation pipeline.
+- **📁 docs/**
+  - **📄 architectures.docs:** Describes the architecture of the GenAI system, its modules, data flow, and responsibilities.
+  - **📄 data_sheet.xlsx:** Excel sheet listing datasets, fields, sources, and related metadata.
+- **📁 Other Root Files**
+- **📄 requirements.txt:** Lists all Python libraries required to run the project (e.g., openai, langchain, pandas, PyYAML).
+- **📄 setup.py:** Python setup script to package and install the project locally or via pip.
+- **📄 .env:** Stores sensitive environment variables (API keys, secrets, etc.) loaded at runtime.
+- **📄 README.md:** Project introduction, setup steps, usage examples, and contact/contribution info.
+- **📄 Dockerfile:** Creates a containerized environment for the project (with dependencies and runtime setup).
+- **📄 .gitignore:** Defines files/folders to exclude from version control (e.g., __pycache__, .env, logs, cache).
+- **📄 procedures_steps.txt:** Lists step-by-step instructions to run the project from setup to execution and testing.
+- **📄 LICENSE:** Specifies the open-source license (MIT, Apache, etc.) governing how the project can be used or modified. 
 
 ---
 
